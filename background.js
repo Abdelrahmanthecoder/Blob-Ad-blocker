@@ -1,4 +1,4 @@
-const defaultFilters = [
+]const defaultFilters = [
 	"*://*.doubleclick.net/*",
 	"*://partner.googleadservices.com/*",
 	"*://*.googlesyndication.com/*",
@@ -22,6 +22,8 @@ const defaultFilters = [
 	"*://*.hero-wars.com/*",
 	"*://*.blockchain-life.com/*",
 	"*://*.a-ads.com/*",
+	"*://*.wix.com/*",
+	"*://*.ads.google.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
