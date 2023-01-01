@@ -1,4 +1,4 @@
 # Blob-Ad-blocker
 
-This is a google extension for blocking ads! 
+Welcome to BLOB Adblocker, your one-stop shop for ad blocking! 
 Made by Abdelrahman for the community
