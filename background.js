@@ -23,9 +23,11 @@ const defaultFilters = [
 	"*://*.blockchain-life.com/*",
 	"*://*.a-ads.com/*",
 	"*://*.wix.com/*",
-	"*://*.ads.google.com/*",
+	"*://ads.google.com/*",
 	"*://*.freeadstime.org/*",
 	"*://*.findermaster.com/*",
+	"*://*.advertiseera.com/*",
+	"*://*.giganticlist.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
