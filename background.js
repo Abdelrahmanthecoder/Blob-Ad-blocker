@@ -29,6 +29,8 @@ const defaultFilters = [
 	"*://*.advertiseera.com/*",
 	"*://*.giganticlist.com/*",
 	"*://*.wallclassifieds.com/*",
+	"*://*.h1ad.com/*",
+	"*://*.classifiedsfactor.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
