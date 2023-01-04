@@ -56,6 +56,9 @@ const defaultFilters = [
 	"*://*.webhostingecommerce.org/*",
 	"*://*.sell.com/*",
 	"*://*.indialist.com/*",
+	"*://*.locanto.in/*",
+	"*://*.global-free-classified-ads.com/*",
+	"*://rediff.Classifieds.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
