@@ -31,6 +31,12 @@ const defaultFilters = [
 	"*://*.wallclassifieds.com/*",
 	"*://*.h1ad.com/*",
 	"*://*.classifiedsfactor.com/*",
+	"*://ads.shopolop.com/*",
+	"*://ad.ologames.com/*",
+	"*://ads.digitalmarketinghints.com/*",
+	"*://*.angi.com/*",
+	"*://*.bbb.org/*",
+	"*://*.elocal.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
