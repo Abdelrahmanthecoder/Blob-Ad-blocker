@@ -65,6 +65,9 @@ const defaultFilters = [
 	"*://*.quikr.com/*",
 	"*://classifieds.ivarta.com/*",
 	"*://*.ocala4sale.com/*",
+	"*://*.bonqo.com/*",
+	"*://*.traderonline.com/*",
+	"*://*.claz.org/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
