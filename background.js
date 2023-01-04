@@ -44,6 +44,9 @@ const defaultFilters = [
 	"*://*.manta.net/*",
 	"*://*.merchantcircle.com/*",
 	"*://*.submitexpress.com/*",
+	"*://*.superpages.com/*",
+	"*://*.thumbtack.com/*",
+	"*://*.tupalo.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
