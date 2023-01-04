@@ -53,6 +53,9 @@ const defaultFilters = [
 	"*://*.giganticlist.com/*",
 	"*://*.adsthumb.com/*",
 	"*://*.clickindia.com/*",
+	"*://*.webhostingecommerce.org/*",
+	"*://*.sell.com/*",
+	"*://*.indialist.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
