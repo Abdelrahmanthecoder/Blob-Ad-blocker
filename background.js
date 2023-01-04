@@ -71,6 +71,9 @@ const defaultFilters = [
 	"*://*.adswale.in/*",
 	"*://*.adpostbox.com/*",
 	"*://*.classifieds.webindia123.com/*",
+	"*://*.inetgiant.com/*",
+	"*://*.yakaz.com/*",
+	"*://*.pennysaverusa.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
