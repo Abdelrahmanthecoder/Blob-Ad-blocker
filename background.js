@@ -47,6 +47,9 @@ const defaultFilters = [
 	"*://*.superpages.com/*",
 	"*://*.thumbtack.com/*",
 	"*://*.tupalo.com/*",
+	"*://*.freeadstime.org/*",
+	"*://*.findermaster.com/*",
+	"*://*.advertiseera.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
