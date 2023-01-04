@@ -62,6 +62,9 @@ const defaultFilters = [
 	"*://*.bechna.com/*",
 	"*://*.adsglobe.com/*",
 	"*://*.adpost.in/*",
+	"*://*.quikr.com/*",
+	"*://classifieds.ivarta.com/*",
+	"*://*.ocala4sale.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
