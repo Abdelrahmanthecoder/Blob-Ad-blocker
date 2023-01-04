@@ -37,6 +37,9 @@ const defaultFilters = [
 	"*://*.angi.com/*",
 	"*://*.bbb.org/*",
 	"*://*.elocal.com/*",
+	"*://*.ezlocal.com/*",
+	"*://*.hotfrog.com/*",
+	"*://*.insiderpages.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
