@@ -40,6 +40,10 @@ const defaultFilters = [
 	"*://*.ezlocal.com/*",
 	"*://*.hotfrog.com/*",
 	"*://*.insiderpages.com/*",
+	"*://*.local.com/*",
+	"*://*.manta.net/*",
+	"*://*.merchantcircle.com/*",
+	"*://*.submitexpress.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
