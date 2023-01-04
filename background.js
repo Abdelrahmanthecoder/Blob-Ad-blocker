@@ -68,6 +68,9 @@ const defaultFilters = [
 	"*://*.bonqo.com/*",
 	"*://*.traderonline.com/*",
 	"*://*.claz.org/*",
+	"*://*.adswale.in/*",
+	"*://*.adpostbox.com/*",
+	"*://*.classifieds.webindia123.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
