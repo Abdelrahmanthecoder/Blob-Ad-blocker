@@ -74,6 +74,9 @@ const defaultFilters = [
 	"*://*.inetgiant.com/*",
 	"*://*.yakaz.com/*",
 	"*://*.pennysaverusa.com/*",
+	"*://*.daype.com/*",
+	"*://*.ziply.com/*",
+	"*://*.adeex.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
