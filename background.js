@@ -50,6 +50,9 @@ const defaultFilters = [
 	"*://*.freeadstime.org/*",
 	"*://*.findermaster.com/*",
 	"*://*.advertiseera.com/*",
+	"*://*.giganticlist.com/*",
+	"*://*.adsthumb.com/*",
+	"*://*.clickindia.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
