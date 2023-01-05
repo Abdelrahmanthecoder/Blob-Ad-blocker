@@ -89,6 +89,9 @@ const defaultFilters = [
 	"*://*.bavun.in/*",
 	"*://*.wantedwants.com/*",
 	"*://*.classifieds4me.com/*",
+	"*://*.e-classifieds.net/*",
+	"*://*.classifieds.co.uk/*",
+	"*://*.bizmartindia.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
