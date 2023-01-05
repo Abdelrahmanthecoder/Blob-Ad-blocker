@@ -92,6 +92,9 @@ const defaultFilters = [
 	"*://*.e-classifieds.net/*",
 	"*://*.classifieds.co.uk/*",
 	"*://*.bizmartindia.com/*",
+	"*://*.bharatpatal.org/*",
+	"*://*.highlandclassifieds.com/*",
+	"*://*.kijiji.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
