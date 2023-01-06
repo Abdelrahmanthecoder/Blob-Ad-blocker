@@ -95,6 +95,9 @@ const defaultFilters = [
 	"*://*.bharatpatal.org/*",
 	"*://*.highlandclassifieds.com/*",
 	"*://*.kijiji.com/*",
+	"*://*.kugli.com/*",
+	"*://*.droik.com/*",
+	"*://*.itsmymarket.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
