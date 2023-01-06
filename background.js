@@ -98,6 +98,9 @@ const defaultFilters = [
 	"*://*.kugli.com/*",
 	"*://*.droik.com/*",
 	"*://*.itsmymarket.com/*",
+	"*://sfgate.kaango.com/*",
+	"*://*.freeadvertisingzone.com/*",
+	"*://*.shiningindiaclassifieds.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
