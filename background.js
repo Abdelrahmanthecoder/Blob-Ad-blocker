@@ -101,6 +101,9 @@ const defaultFilters = [
 	"*://sfgate.kaango.com/*",
 	"*://*.freeadvertisingzone.com/*",
 	"*://*.shiningindiaclassifieds.in/*",
+	"*://*.free2post.in/*",
+	"*://*.indianclassifiedsonline.in/*",
+	"*://*.adspublish.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
