@@ -104,6 +104,9 @@ const defaultFilters = [
 	"*://*.free2post.in/*",
 	"*://*.indianclassifiedsonline.in/*",
 	"*://*.adspublish.in/*",
+	"*://*.webhostingecommerce.org/*",
+	"*://*.gyanijiworld.in/*",
+	"*://*.usfreeads.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
