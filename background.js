@@ -125,6 +125,9 @@ const defaultFilters = [
 	"*://*.namanas.com/*",
 	"*://*.izydaisy.com/*",
 	"*://*.indiamart.com/*",
+	"*://*.clutch.co/*",
+	"*://*.10dayads.com/*",
+	"*://*.ibackpage.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
