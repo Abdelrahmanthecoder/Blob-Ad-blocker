@@ -116,6 +116,9 @@ const defaultFilters = [
 	"*://*.indiadynamics.com/*",
 	"*://*.indiacatalog.com/*",
 	"*://*.ezclassifiedads.com/*",
+	"*://*.fmclassifieds.com/*",
+	"*://*.classifiedsdekho.com/*",
+	"*://*.indian-freeads.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
