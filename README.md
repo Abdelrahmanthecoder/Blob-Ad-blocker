@@ -7,3 +7,7 @@ It smooth and it works!
 </p>
 <br/>
 <br/>
+
+## Issues
+
+You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/Blob-Ad-blocker/issues)! Thank you...
