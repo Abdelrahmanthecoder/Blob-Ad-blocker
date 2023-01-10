@@ -132,6 +132,9 @@ const defaultFilters = [
 	"*://*.way2ad.com/*",
 	"*://*.delhincrads.com/*",
 	"*://*.classifiedlane.com/*",
+	"*://*.tuffclassified.com/*",
+	"*://*.nextfreeads.com/*",
+	"*://*.nullads.org/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
