@@ -129,6 +129,9 @@ const defaultFilters = [
 	"*://*.classifiedsciti.com/*",
 	"*://*.classtize.com/*",
 	"*://*.india-classifieds.in/*",
+	"*://*.way2ad.com/*",
+	"*://*.delhincrads.com/*",
+	"*://*.classifiedlane.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
