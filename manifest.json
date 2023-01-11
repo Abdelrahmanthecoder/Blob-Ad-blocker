@@ -1,15 +1,15 @@
 {
-    "name": "BLOB Adblocker",
-    "version": "1.0.915",
-    "description": "Welcome to BLOB Adblocker, your one-stop shop for ad blocking!",
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
-    "background": {
-        "scripts": ["background.js"]
-    },
-    "icons": {
-        "16": "icons/Blob16x16.jpeg",
-        "48": "icons/Blob48x48.jpeg",
-        "128": "icons/Blob128x128.jpeg"
-    },
-    "manifest_version": 2
+  "name": "BLOB Adblocker",
+  "version": "1.0.916",
+  "description": "Welcome to BLOB Adblocker, your one-stop shop for ad blocking!",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "icons": {
+      "16": "icons/Blob16x16.jpeg",
+      "48": "icons/Blob48x48.jpeg",
+      "128": "icons/Blob128x128.jpeg"
+  },
+  "manifest_version": 2
 }
