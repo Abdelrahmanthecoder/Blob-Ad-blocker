@@ -147,6 +147,9 @@ const defaultFilters = [
 	"*://*.koolbusiness.com/*",
 	"*://*.justclassified.co.in/*",
 	"*://*.freeadsbox.com/*",
+	"*://web-free-ads.com/*",
+	"*://*.mypetads.com/*",
+	"*://*.freeads24.eu/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
