@@ -156,6 +156,9 @@ const defaultFilters = [
 	"*://*.freeprachar.com/*",
 	"*://*.adskeep.com/*",
 	"*://*.nowclassifieds.com/*",
+	"*://*.hotfreelist.com/*",
+	"*://*.adway24.com/*",
+	"*://*.ukadslist.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
