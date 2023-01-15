@@ -159,6 +159,9 @@ const defaultFilters = [
 	"*://*.hotfreelist.com/*",
 	"*://*.adway24.com/*",
 	"*://*.ukadslist.com/*",
+	"*://*.advertigo.net/*",
+	"*://*.click4post.com/*",
+	"*://*.web-free-ads.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
