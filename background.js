@@ -171,6 +171,9 @@ const defaultFilters = [
 	"*://*.freeadshome.com/*",
 	"*://*.princeclassified.com/*",
 	"*://*.youpost.org/*",
+	"*://*.adsblue.com/*",
+	"*://*.craftstylish.com/*",
+	"*://*.stclassifieds.sg/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
