@@ -162,6 +162,9 @@ const defaultFilters = [
 	"*://*.advertigo.net/*",
 	"*://*.click4post.com/*",
 	"*://*.web-free-ads.com/*",
+	"*://*.adazpoint.com/*",
+	"*://*.classified4u.biz/*",
+	"*://*.adsnity.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
