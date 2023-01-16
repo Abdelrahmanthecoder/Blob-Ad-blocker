@@ -180,6 +180,8 @@ const defaultFilters = [
 	"*://*.askmeclassifieds.com/*",
 	"*://*.freeadsbook.com/*",
 	"*://*.jumpindeals.com/*",
+	"*://*.freead1.net/*",
+	"*://*.muamat.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
