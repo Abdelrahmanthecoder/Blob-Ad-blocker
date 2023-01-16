@@ -177,6 +177,9 @@ const defaultFilters = [
 	"*://*.quickfinds.in/*",
 	"*://*.indiaaclick.com/*",
 	"*://*.adsyellowpages.com/*",
+	"*://*.askmeclassifieds.com/*",
+	"*://*.freeadsbook.com/*",
+	"*://*.jumpindeals.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
