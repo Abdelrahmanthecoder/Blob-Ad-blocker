@@ -165,6 +165,9 @@ const defaultFilters = [
 	"*://*.adazpoint.com/*",
 	"*://*.classified4u.biz/*",
 	"*://*.adsnity.com/*",
+	"*://*.bestclassifiedsusa.com/*",
+	"*://*.k2classifieds.com/*",
+	"*://*.freeadsonline.biz/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
