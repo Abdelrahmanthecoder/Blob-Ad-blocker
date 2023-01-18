@@ -7,9 +7,9 @@
       "scripts": ["background.js"]
   },
   "icons": {
-      "16": "icons/Blob16x16.jpeg",
-      "48": "icons/Blob48x48.jpeg",
-      "128": "icons/Blob128x128.jpeg"
+      "16": "./Blob16x16.jpeg",
+      "48": "./Blob48x48.jpeg",
+      "128": "./Blob128x128.jpeg"
   },
   "browser_action": {
     "default_title": "BLOB",
