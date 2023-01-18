@@ -7,13 +7,14 @@
       "scripts": ["background.js"]
   },
   "icons": {
-      "16": "./Blob16x16.jpeg",
-      "48": "./Blob48x48.jpeg",
-      "128": "./Blob128x128.jpeg"
+      "16": "./icons/Blob16x16.png",
+      "48": "./icons/Blob48x48.png",
+      "128": "./icons/Blob128x128.png"
   },
   "browser_action": {
     "default_title": "BLOB",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": "./icons/Blob16x16.png"
   },
   "manifest_version": 2
 }
