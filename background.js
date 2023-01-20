@@ -182,6 +182,9 @@ const defaultFilters = [
 	"*://*.jumpindeals.com/*",
 	"*://*.freead1.net/*",
 	"*://*.muamat.com/*",
+	"*://*.oregonlive.com/*",
+	"*://*.stltoday.com/*",
+	"*://us.classifieds.sulekha.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
