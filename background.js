@@ -185,6 +185,9 @@ const defaultFilters = [
 	"*://*.oregonlive.com/*",
 	"*://*.stltoday.com/*",
 	"*://us.classifieds.sulekha.com/*",
+	"*://*.americanlisted.com/*",
+	"*://*.adsthumb.com/*",
+	"*://*.claz.org/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
