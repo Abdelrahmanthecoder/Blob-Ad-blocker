@@ -48,6 +48,47 @@
             Welcome to BLOB Adblocker, your one-stop shop for ad blocking! It smooth and it works! 
             To avoid bothersome advertising, speed up browsers, and stay safe online, use BLOB ad-blocker. </strong> </p> </center>
     </div>
+    <style>
+    #tooltip{
+        position: relative;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: "Gill Sans", sans-serif;
+        font-weight: bold; 
+    }
+    #tooltipText{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 10px 15px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    #tooltipText::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        border: 15px solid;
+        border-color: #000 #0000 #0000 #0000;
+    }
+    #tooltip:hover #tooltipText{
+        top: -130%;
+        visibility: visible;
+        opacity: 1;
+    }
+    </style>
+        <div id="tooltip">
+            <span id="tooltipText">PRERELEASE v1.0.920</span></var>
+            <center> <span>BLOB Version</span> </center>
+        </div>
 </body>
 </body>
 
