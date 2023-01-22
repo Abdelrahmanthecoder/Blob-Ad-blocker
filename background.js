@@ -188,6 +188,9 @@ const defaultFilters = [
 	"*://*.americanlisted.com/*",
 	"*://*.adsthumb.com/*",
 	"*://*.claz.org/*",
+	"*://*.usnetads.com/*",
+	"*://*.webclassifieds.us/*",
+	"*://*.classifiedsforfree.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
