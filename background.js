@@ -209,6 +209,7 @@ const defaultFilters = [
 	"*://*.ziply.com/*",
 	"*://*.adeex.in/*",
 	"*://*.sify.com/*",
+	"*://*.webcosmo.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
