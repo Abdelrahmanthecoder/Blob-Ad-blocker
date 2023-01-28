@@ -197,6 +197,7 @@ const defaultFilters = [
 	"*://*.classifieds.webindia123.com/*",
 	"*://*.inetgiant.com/*",
 	"*://*.thisismyindia.com/*",
+	"*://*.bonqo.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
