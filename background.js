@@ -204,6 +204,7 @@ const defaultFilters = [
 	"*://classifieds.ivarta.com/*",
 	"*://*.ocala4sale.com/*",
 	"*://*.adswale.in/*",
+	"*://*.indnav.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
