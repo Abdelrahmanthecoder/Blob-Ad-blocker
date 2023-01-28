@@ -201,6 +201,9 @@ const defaultFilters = [
 	"*://rediff.Classifieds.com/*",
 	"*://*.bechna.com/*",
 	"*://*.khojle.in/*",
+	"*://classifieds.ivarta.com/*",
+	"*://*.ocala4sale.com/*",
+	"*://*.adswale.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
