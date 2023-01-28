@@ -211,6 +211,7 @@ const defaultFilters = [
 	"*://*.sify.com/*",
 	"*://*.webcosmo.com/*",
 	"*://*.rajb2b.com/*",
+	"*://*.bavun.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
