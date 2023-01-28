@@ -207,6 +207,7 @@ const defaultFilters = [
 	"*://*.indnav.com/*",
 	"*://*.inetgiant.com/*",
 	"*://*.ziply.com/*",
+	"*://*.adeex.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
