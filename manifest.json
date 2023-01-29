@@ -1,6 +1,6 @@
 {
   "name": "BLOB Adblocker",
-  "version": "1.0.923",
+  "version": "1.0.924",
   "description": "Welcome to BLOB Adblocker, your one-stop shop for ad blocking!",
   "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
