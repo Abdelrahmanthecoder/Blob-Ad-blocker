@@ -15,9 +15,9 @@
     "default_title": "BLOB",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/icons/Blob16x16.png",
-      "48": "/icons/Blob48x48.png",
-      "128": "/icons/Blob128x128.png"
+      "16": "/Blob16x16.png",
+      "48": "/Blob48x48.png",
+      "128": "/Blob128x128.png"
     }
   },
   "manifest_version": 2
