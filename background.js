@@ -217,6 +217,7 @@ const defaultFilters = [
 	"*://*.classifieds4me.com/*",
 	"*://*.e-classifieds.net/*",
 	"*://*.boostime.in/*",
+	"*://*.bharatpatal.org/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
