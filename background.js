@@ -221,6 +221,7 @@ const defaultFilters = [
 	"*://*.kugli.com/*",
 	"*://*.droik.com/*",
 	"*://*.postaroo.com/*",
+	"*://sfgate.kaango.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
