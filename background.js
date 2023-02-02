@@ -222,6 +222,7 @@ const defaultFilters = [
 	"*://*.droik.com/*",
 	"*://*.postaroo.com/*",
 	"*://sfgate.kaango.com/*",
+	"*://*.shiningindiaclassifieds.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
