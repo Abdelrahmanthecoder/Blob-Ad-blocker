@@ -220,6 +220,7 @@ const defaultFilters = [
 	"*://*.bharatpatal.org/*",
 	"*://*.kugli.com/*",
 	"*://*.droik.com/*",
+	"*://*.postaroo.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
