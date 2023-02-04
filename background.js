@@ -229,6 +229,7 @@ const defaultFilters = [
 	"*://*.fmclassifieds.com/*",
 	"*://*.classifiedsdekho.com/*",
 	"*://*.nullads.org/*",
+	"*://*.webclassifieds.us/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
