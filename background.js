@@ -235,6 +235,7 @@ const defaultFilters = [
 	"*://*.businessadsforfree.net/*",
 	"*://*.tuffclassified.com/*",
 	"*://*.expat.com/*",
+	"*://*.sulekha.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
