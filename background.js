@@ -230,6 +230,7 @@ const defaultFilters = [
 	"*://*.classifiedsdekho.com/*",
 	"*://*.nullads.org/*",
 	"*://*.webclassifieds.us/*",
+	"*://*.classifiedslive.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
