@@ -242,6 +242,7 @@ const defaultFilters = [
 	"*://*.highlandclassifieds.com/*",
 	"*://*.bestadforum.com/*",
 	"*://in.88db.com/*",
+	"*://bangalore.craigslist.co.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
