@@ -247,6 +247,7 @@ const defaultFilters = [
 	"*://*.tcnext.com/*",
 	"*://*.khojle.in/*",
 	"*://*.adoos.in/*",
+	"*://*.indiagrid.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
