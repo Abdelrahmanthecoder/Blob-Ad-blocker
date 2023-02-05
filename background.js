@@ -245,6 +245,7 @@ const defaultFilters = [
 	"*://bangalore.craigslist.co.in/*",
 	"*://*.ocala4sale.com/*",
 	"*://*.tcnext.com/*",
+	"*://*.khojle.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
