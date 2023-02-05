@@ -246,6 +246,7 @@ const defaultFilters = [
 	"*://*.ocala4sale.com/*",
 	"*://*.tcnext.com/*",
 	"*://*.khojle.in/*",
+	"*://*.adoos.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
