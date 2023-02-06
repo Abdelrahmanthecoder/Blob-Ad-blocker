@@ -249,6 +249,7 @@ const defaultFilters = [
 	"*://*.adoos.in/*",
 	"*://*.indiagrid.com/*",
 	"*://*.ablewise.com/*",
+	"*://classifieds.abacin.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
