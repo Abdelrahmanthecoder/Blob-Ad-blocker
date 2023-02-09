@@ -251,6 +251,7 @@ const defaultFilters = [
 	"*://*.ablewise.com/*",
 	"*://classifieds.abacin.com/*",
 	"*://*.adswale.in/*",
+	"*://*.whynotad.com/*"
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
