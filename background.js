@@ -253,6 +253,7 @@ const defaultFilters = [
 	"*://*.adswale.in/*",
 	"*://*.whynotad.com/*",
 	"*://*.inetgiant.com/*",
+	"*://*.raviwari.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
