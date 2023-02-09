@@ -258,6 +258,7 @@ const defaultFilters = [
 	"*://*.uscity.net/*",
 	"*://classifieds.dialindia.com/*",
 	"*://*.justdoondo.com/*",
+	"*://*.dragg.in/classifieds/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
