@@ -261,6 +261,7 @@ const defaultFilters = [
 	"*://*.dragg.in/classifieds/*",
 	"*://classifiedslive.com/*",
 	"*://*.99dealr.com/*",
+	"*://*.briskom.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
