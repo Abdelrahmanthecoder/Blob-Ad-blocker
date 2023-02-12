@@ -262,6 +262,7 @@ const defaultFilters = [
 	"*://classifiedslive.com/*",
 	"*://*.99dealr.com/*",
 	"*://*.briskom.com/*",
+	"*://*.gumpul.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
