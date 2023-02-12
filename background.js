@@ -263,6 +263,7 @@ const defaultFilters = [
 	"*://*.99dealr.com/*",
 	"*://*.briskom.com/*",
 	"*://*.gumpul.com/*",
+	"*://*.classtize.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
