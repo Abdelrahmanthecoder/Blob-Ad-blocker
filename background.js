@@ -267,6 +267,7 @@ const defaultFilters = [
 	"*://*.goodlinksindia.com/*",
 	"*://*.digitalbhoomi.in/*",
 	"*://*.krreddy.com/*",
+	"*://*.chillyads.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
