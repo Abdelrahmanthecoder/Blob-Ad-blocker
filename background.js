@@ -272,6 +272,7 @@ const defaultFilters = [
 	"*://*.indiaboard.com/*",
 	"*://*.1000freeads.com/*",
 	"*://*.admaya.in/*",
+	"*://*.sivaindia.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
