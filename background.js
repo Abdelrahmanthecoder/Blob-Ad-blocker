@@ -270,6 +270,7 @@ const defaultFilters = [
 	"*://*.chillyads.com/*",
 	"*://*.classifieds4all.in/*",
 	"*://*.indiaboard.com/*",
+	"*://*.1000freeads.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
