@@ -277,6 +277,7 @@ const defaultFilters = [
 	"://apnaindia.com/",
 	"*://*.jippy.in/*",
 	"*://*.tapaak.com/*",
+	"*://*.admamu.in/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
