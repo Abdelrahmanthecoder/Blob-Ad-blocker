@@ -289,6 +289,7 @@ const defaultFilters = [
 	"*://delhi-city.adeex.in/*",
 	"*://*.adsblue.com/*",
 	"*://*.adsyellowpages.com/*",
+	"*://*.askmeclassifieds.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
