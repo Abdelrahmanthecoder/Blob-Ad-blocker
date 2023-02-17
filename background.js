@@ -290,6 +290,7 @@ const defaultFilters = [
 	"*://*.adsblue.com/*",
 	"*://*.adsyellowpages.com/*",
 	"*://*.askmeclassifieds.com/*",
+	"*://*.flegoo.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
