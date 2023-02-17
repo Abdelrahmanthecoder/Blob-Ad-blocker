@@ -287,6 +287,7 @@ const defaultFilters = [
 	"*://*.eknazar.com/*",
 	"*://*.admaya.in/*",
 	"*://delhi-city.adeex.in/*",
+	"*://*.adsblue.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
