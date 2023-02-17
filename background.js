@@ -282,6 +282,8 @@ const defaultFilters = [
 	"*://*.mrjalebi.com/*",
 	"*://indore.craigslist.org/*",
 	"*://*.nola.com/*",
+	"*://classifieds.jagran.com/*",
+	"*://*.justlanded.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
