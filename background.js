@@ -292,6 +292,7 @@ const defaultFilters = [
 	"*://*.askmeclassifieds.com/*",
 	"*://*.flegoo.com/*",
 	"*://*.freeadsciti.com/*",
+	"*://*.surfindia.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
