@@ -294,6 +294,7 @@ const defaultFilters = [
 	"*://*.freeadsciti.com/*",
 	"*://*.surfindia.com/*",
 	"*://*.stclassifieds.sg/*",
+	"*://*.adsandclassifieds.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
