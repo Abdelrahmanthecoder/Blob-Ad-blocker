@@ -1,10 +1,14 @@
-<h2 align="center">Blob-Ad-blocker</h2>
+<h2 align="center">Blob-Adblocker</h2>
 <!-- ![BLOB](https://user-images.githubusercontent.com/99421749/210632805-ba8dd323-dd93-494c-8b1e-8bc8660ac97b.png) -->
 
 <br/>
 <p align="center">Welcome to BLOB Adblocker, your one-stop shop for ad blocking! 
 It smooth and it works!
 </p>
+
+## Download BLOB Adblocker on your browser
+
+You can download the Blob Adblocker now on your browser, just head to (LINK COMING SOON!) to start!
 
 ## Issues
 
