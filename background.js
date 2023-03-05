@@ -1,40 +1,12 @@
+chrome.runtime.onInstalled.addListener(() => {
+    console.log("BLOB Adblocker installed");
+  });
+  
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
+        console.log("Blocking:", details.url);
         return {cancel: true};
     },
     {urls: adList},
     ["blocking"]
 );
-
-const adList = [
-    "*://*.doubleclick.net/*",
-    "*://*.googlesyndication.com/*",
-    "*://*.googletagservices.com/*",
-    "*://*.googleadservices.com/*",
-    "*://*.google-analytics.com/*",
-    "*://*.googleadservices.com/*",
-    "*://*.zedo.com/*",
-    "*://*.adbrite.com/*",
-    "*://*.adbureau.net/*",
-    "*://*.carbonads.net/*",
-    "*://*.cdn.carbonads.com/*",
-    "*://*.cdn.carbonads.net/*",
-    "*://*.cdn.doubleclick.net/*",
-    "*://*.cdn.googletagservices.com/*",
-    "*://*.cdn.googleadservices.com/*",
-    "*://*.cdn.zedo.com/*",
-    "*://*.doubleclick.net/*",
-    "*://partner.googleadservices.com/*",
-    "*://*.googlesyndication.com/*",
-    "*://*.google-analytics.com/*",
-    "*://creative.ak.fbcdn.net/*",
-    "*://*.adbrite.com/*",
-    "*://*.exponential.com/*",
-    "*://*.quantserve.com/*",
-    "*://*.scorecardresearch.com/*",
-    "*://*.zedo.com/*",
-    "*://*.locanto.ca/*",
-    "*://*.oodle.com/*",
-    "*://*.classifiedads.com/*",
-    "*://*.adpost.com/*"
-];
