@@ -1,3 +1,11 @@
+chrome.webRequest.onBeforeRequest.addListener(
+    function(details) {
+        return {cancel: true}
+    },
+    {urls: adList},
+    ["blocking"]
+)
+
 const adList = [
     "*://*.doubleclick.net/*",
     "*://*.googlesyndication.com/*",
@@ -16,11 +24,3 @@ const adList = [
     "*://*.cdn.googleadservices.com/*",
     "*://*.cdn.zedo.com/*",
 ];
-
-chrome.webRequest.onBeforeRequest.addListener(
-    function(details) {
-        return {cancel: true}
-    },
-    {urls: adList},
-    ["blocking"]
-)
