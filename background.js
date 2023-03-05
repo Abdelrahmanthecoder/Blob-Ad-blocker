@@ -1,3 +1,11 @@
+chrome.webRequest.onBeforeRequest.addListener(
+    function(details) {
+        return {cancel: true};
+    },
+    {urls: adList},
+    ["blocking"]
+);
+
 const adList = [
     "*://*.doubleclick.net/*",
     "*://*.googlesyndication.com/*",
@@ -16,25 +24,17 @@ const adList = [
     "*://*.cdn.googleadservices.com/*",
     "*://*.cdn.zedo.com/*",
     "*://*.doubleclick.net/*",
-	"*://partner.googleadservices.com/*",
-	"*://*.googlesyndication.com/*",
-	"*://*.google-analytics.com/*",
-	"*://creative.ak.fbcdn.net/*",
-	"*://*.adbrite.com/*",
-	"*://*.exponential.com/*",
-	"*://*.quantserve.com/*",
-	"*://*.scorecardresearch.com/*",
-	"*://*.zedo.com/*",
-	"*://*.locanto.ca/*",
-	"*://*.oodle.com/*",
-	"*://*.classifiedads.com/*",
-	"*://*.adpost.com/*",
+    "*://partner.googleadservices.com/*",
+    "*://*.googlesyndication.com/*",
+    "*://*.google-analytics.com/*",
+    "*://creative.ak.fbcdn.net/*",
+    "*://*.adbrite.com/*",
+    "*://*.exponential.com/*",
+    "*://*.quantserve.com/*",
+    "*://*.scorecardresearch.com/*",
+    "*://*.zedo.com/*",
+    "*://*.locanto.ca/*",
+    "*://*.oodle.com/*",
+    "*://*.classifiedads.com/*",
+    "*://*.adpost.com/*"
 ];
-
-chrome.webRequest.onBeforeRequest.addListener(
-    function(details) {
-        return {cancel: true}
-    },
-    {urls: adList},
-    ["blocking"]
-);
