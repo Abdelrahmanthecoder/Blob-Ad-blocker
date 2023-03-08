@@ -6,15 +6,15 @@
 It smooth and it works!
 </p>
 
-## Download BLOB Adblocker on your browser
+<h2 align="center">Download BLOB Adblocker on your browser</h2>
 
 You can download the Blob Adblocker now on your browser, just head to (LINK COMING SOON!) to start!
 
-## Issues
+<h2 align="center">Issues</h2>
 
 You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/Blob-Ad-blocker/issues)!
 
-## Ideas and Questions
+<h2 align="center">Ideas and Questions</h2>
 
 You can tell me some ideas for this project on the [ideas](https://github.com/Abdelrahmanthecoder/Blob-Ad-blocker/discussions/categories/ideas) page
 and you can ask me questions on the [general discussion](https://github.com/Abdelrahmanthecoder/Blob-Ad-blocker/discussions/categories/general) page!
