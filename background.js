@@ -21,4 +21,4 @@ chrome.webRequest.onBeforeRequest.addListener(
         "*://*.cdn.zedo.com/*",
     ]},
     ["blocking"]
-);
+); 
