@@ -1,19 +1,18 @@
-chrome.webRequest.onBeforeRequest.addListener(
-  function(details) {
-    if (isAd(details.url)) {
-      return { cancel: true };
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.declarativeNetRequest.updateDynamicRules({
+    removeRuleIds: ["1"]
+  });
+  chrome.declarativeNetRequest.addRules([{
+    id: "1",
+    priority: 1,
+    action: {
+      type: "block"
+    },
+    condition: {
+      urlFilter: {
+        urls: ["<all_urls>"]
+      },
+      domains: ["doubleclick.net", "googleadservices.com", "advertising.com"]
     }
-  },
-  { urls: ["<all_urls>"] },
-  ["blocking"]
-);
-
-function isAd(url) {
-  var adDomains = ["doubleclick.net", "googleadservices.com", "advertising.com"];
-  for (var i = 0; i < adDomains.length; i++) {
-    if (url.indexOf(adDomains[i]) !== -1) {
-      return true;
-    }
-  }
-  return false;
-}
+  }]);
+});
